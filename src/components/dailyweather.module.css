@@ -1,0 +1,82 @@
+.current__weather {
+  background: var(---color-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.8rem 0 4rem 0;
+}
+
+.current__photo {
+  width: 12rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.current__bg__image {
+  background-image: url("../assets/Cloud-background.png");
+}
+
+.current__bg {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(---color-bg);
+  background-blend-mode: overlay;
+  background-position: top;
+  padding: 3rem 0 4rem 0;
+  text-align: center;
+}
+
+.current__degree {
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
+}
+
+.current__degree span {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(---color-secondary);
+}
+
+.current__condition {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: var(---color-secondary);
+}
+
+.current__otherdata {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #88869d;
+  text-align: center;
+}
+
+.current__otherdata span {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  vertical-align: bottom;
+}
+
+.btn__search {
+  font-size: 16px;
+  line-height: 19px;
+  color: #e7e7eb;
+  background: #6e707a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1rem 1.5rem;
+}
+
+
+@media (min-width: 650px) {
+  .current__weather {
+    width: 30%;
+    gap: 3rem;
+  }
+  
+}

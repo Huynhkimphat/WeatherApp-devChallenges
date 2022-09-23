@@ -1,0 +1,38 @@
+.singles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.single__item {
+  background: var(---color-bg);
+  text-align: center;
+  padding: 2rem 1.6rem;
+  width: 45%;
+}
+
+.single__item * {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.single__item img {
+  max-width: 6.2rem;
+  margin-bottom: 2rem;
+}
+
+.min_temp{
+    color: var(---color-secondary);
+}
+
+@media (min-width: 650px) {
+  .single__item {
+    width: 100%;
+    max-width: 13rem;
+  }
+  .singles {
+    justify-content: flex-start;
+  }
+}

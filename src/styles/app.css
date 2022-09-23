@@ -1,0 +1,37 @@
+:root {
+  ---color-primary: #e7e7eb;
+  ---color-secondary: #a09fb1;
+  ---color-bg: #1e213a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: var(---color-primary);
+}
+
+.material-icons {
+  font-family: "Material Icons";
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 95%;
+}
+
+img {
+  max-width: 100%;
+}
